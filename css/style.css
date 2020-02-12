@@ -1,0 +1,16 @@
+h1 {
+    text-align: center;
+}
+
+#inputs{
+    display: flex;
+    justify-content: center;
+}
+
+input{
+    margin: 5px;
+}
+
+ul{
+    list-style-type: none;
+}
