@@ -4,13 +4,31 @@ h1 {
 
 #inputs{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    text-align: center;
+    width: 100%;
 }
 
+#divs{
+    display: flex;
+    text-align: center;
+    width: 100%;
+    border: 3px solid green;
+}
 input{
     margin: 5px;
+    text-align: center;
+    border: 3px solid green;
 }
 
 ul{
     list-style-type: none;
+}
+
+body{
+    position:fixed;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
 }
